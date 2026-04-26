@@ -12,5 +12,3 @@ Aprender personalização de temas e CSS no Cinnamon
 
 ## Instalação
 Copie para ~/.themes
-
-## Teste SSH funcionando
