@@ -24,3 +24,16 @@ Copie para ~/.themes
 
 ### Menu (em desenvolvimento)
 ![Menu](assets/screenshots/menu-v1.png)
+
+## 📌 Roadmap
+
+- [x] Personalização do painel
+- [ ] Estilização completa do menu
+- [ ] Ajustes de cores globais
+- [ ] Ícones personalizados
+
+## Ferramentas usadas
+- Linux Mint Cinnamon
+- Visual Studio Code
+- Git e GitHub
+- CSS para personalização do tema
