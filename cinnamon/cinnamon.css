@@ -228,7 +228,7 @@ StScrollBar {
   padding: 8px; }
 
 .menu {
-  color: rgba(200, 0, 255, 0.9);
+  color: rgba(200, 0, 255, 0.95);
   background-color: rgba(15, 15, 15, 0.80);
   box-shadow: 0 0 6px rgba(189, 0, 255, 0.5); 
 }
@@ -257,13 +257,13 @@ StScrollBar {
 }
 
 .popup-sub-menu .popup-menu-item:ltr {
-  color: rgba(230, 247, 255, 0.9);
+  color: rgba(117, 200, 238, 0.9);
   border-radius: 5px;
   padding-left: 2.5em;
 }
 
 .popup-sub-menu .popup-menu-item:rtl {
-  color: rgba(230, 247, 255, 0.9);
+  color: rgba(117, 200, 238, 0.9);
   border-radius: 5px;
   padding-right: 2.5em;
 }
@@ -285,19 +285,19 @@ StScrollBar {
 }
 
 .popup-menu-item:active {
-  color: #303030;
-  background-color: #d3d3d7;
+  color: rgba(255, 25, 25, 0.695);
+  background-color: rgba(11, 65, 82, 0.411);
 }
 
 .popup-menu-item:insensitive {
   color: rgba(48, 48, 48, 0.5);
-  background: none; }
+  background: rgba(63, 26, 90, 0.329); }
 
 .popup-inactive-menu-item {
   color: rgba(0, 240, 255, 0.35); }
   
 .popup-inactive-menu-item:insensitive {
-  color: rgba(48, 48, 48, 0.55); }
+  color: rgba(0, 240, 255, 0.35); }
 
 /*Scale view context menu*/
 .popup-combo-menu {
