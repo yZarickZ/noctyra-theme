@@ -1,18 +1,32 @@
-#  Noctyra
+# Noctyra
 
-Tema personalizado para Linux Mint Cinnamon.
+Tema personalizado para Linux Mint Cinnamon inspirado em estética cyberpunk e gótica.
 
-## Objetivo
-Aprender personalização de temas e CSS no Cinnamon
+O objetivo do projeto é aprender personalização de temas no Cinnamon, CSS, Git/GitHub e desenvolvimento de identidade visual para desktop Linux.
 
-## Progresso
+---
+
+## ✨ Características atuais
 
 - Painel customizado
-- Menu em desenvolvimento
+- Menu personalizado
+- Submenus refinados
+- Paleta neon ciano/roxo
+- Transparência suave para uso noturno
 
-## Instalação
-Copie para ~/.themes
+---
 
+## 📦 Instalação
+
+Copie a pasta do tema para:
+
+```bash
+~/.themes
+```
+
+Depois selecione o tema nas configurações do Cinnamon.
+
+---
 
 ## 🚧 Desenvolvimento Atual
 
@@ -22,18 +36,38 @@ Copie para ~/.themes
 ### Desktop (Preview)
 ![Desktop](assets/screenshots/desktop-v1.png)
 
-### Menu (em desenvolvimento)
+### Menu principal
 ![Menu](assets/screenshots/menu-v1.png)
+
+### Submenu refinado
+![Submenu](assets/screenshots/submenu-v1.png)
+
+---
 
 ## 📌 Roadmap
 
 - [x] Personalização do painel
-- [ ] Estilização completa do menu
-- [ ] Ajustes de cores globais
+- [x] Primeira versão do menu
+- [x] Refinamento visual do submenu
+- [ ] Ajustes globais de GTK
+- [ ] Melhorias em notificações e popups
 - [ ] Ícones personalizados
+- [ ] Refinamento visual geral
 
-## Ferramentas usadas
+---
+
+## 🛠 Ferramentas usadas
+
 - Linux Mint Cinnamon
 - Visual Studio Code
 - Git e GitHub
-- CSS para personalização do tema
+- CSS
+- Bash/Linux Terminal
+
+---
+
+## 🎨 Conceito visual
+
+Noctyra mistura estética gótica e cyberpunk utilizando tons escuros, transparência suave e detalhes neon em roxo e ciano.
+
+O projeto busca conforto visual para uso noturno sem perder identidade visual forte.

@@ -291,7 +291,7 @@ StScrollBar {
 
 .popup-menu-item:insensitive {
   color: rgba(48, 48, 48, 0.5);
-  background: rgba(63, 26, 90, 0.329); }
+  background: none; }
 
 .popup-inactive-menu-item {
   color: rgba(0, 240, 255, 0.35); }
@@ -301,10 +301,10 @@ StScrollBar {
 
 /*Scale view context menu*/
 .popup-combo-menu {
-  color: #303030;
-  border: 1px solid #b5b5bd;
+  color: rebeccapurple;
+  border: 1px solid rgba(189, 0, 255, 0.25);
   border-radius: 3px;
-  background-color: #d3d3d7;
+  background-color: rgba(189, 0, 255, 0.25);
   box-shadow: none;
   padding: 1em 0em 1em 0em; }
 
@@ -316,11 +316,11 @@ StScrollBar {
   border-right-width: 0; }
 
 .popup-separator-menu-item {
-  -gradient-height: 1px;
-  -gradient-start: #c3c3c9;
-  -gradient-end: #c3c3c9;
+  -gradient-height: 3px;
+  -gradient-start: rgba(112, 224, 196, 0.226);
+  -gradient-end: rgba(165, 14, 211, 0.164);
   -margin-horizontal: 0;
-  height: 1px; }
+  height: 3px; }
 
 .popup-alternating-menu-item:alternate {
   font-weight: normal; }
@@ -328,13 +328,15 @@ StScrollBar {
 .popup-device-menu-item {
   spacing: .5em;
   font-weight: bold;
-  color: #303030; }
-  .popup-device-menu-item:insensitive {
-    color: #303030;
-    spacing: 1em; }
-  .popup-device-menu-item .popup-inactive-menu-item {
-    font-weight: normal;
-    color: #303030; }
+  color: rgba(117, 200, 238, 0.9); }
+
+.popup-device-menu-item:insensitive {
+  color: rgba(185, 47, 63, 0.87);
+  spacing: 1em; }
+
+.popup-device-menu-item .popup-inactive-menu-item {
+  font-weight: normal;
+  color: rgba(117, 200, 238, 0.9); }
 
 .popup-subtitle-menu-item {
   font-weight: normal; }
